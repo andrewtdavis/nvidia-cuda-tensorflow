@@ -1,7 +1,7 @@
 # Installing NVIDIA Drivers & CUDA, withTensorFlow support on CentOS / RHEL
-This guide helps install the NVIDIA drivers, as well as one or more versions of CUDA. We'll also help you set up TensorFlow in your home directory to test GPU support
+This guide helps install the NVIDIA drivers, as well as one or more versions of CUDA specifically for TensorFlow but will work for any CUDA workloads. We'll also help you set up a couple versions TensorFlow to test GPU support.
 
-This guide has been tested on:
+This process has been tested on:
 
 - TensorFlow GPU 1.14
 - TensorFlow GPU 2.0
