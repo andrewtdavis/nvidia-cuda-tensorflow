@@ -28,8 +28,8 @@ If this is the first time installing the NVIDIA driver on a system, be sure to d
     - `lspci | grep NVIDIA`, and look for a line like: `VGA compatible controller: NVIDIA Corporation GP104GL [Quadro P5000] `
 2. Download the driver for your GPU, using Linux 64-bit, and "Linux long-lived" download type
     1. https://www.nvidia.com/download/index.aspx?lang=en-us
-    2. When it prompts for a Display driver with the changelog, select download
-    3. The second download page will give a download button. Right-click on that button and select copy link address.
+    2. When it prompts for a Display driver with the changelog, select **download**
+    3. The second download page will give a download button. Right-click on that button and **select copy link address**.
 3. Back on the workstation, download the file:
     - `wget *URL of driver*`
 4. Enable execution of the .run file downloaded.
@@ -52,7 +52,7 @@ If this is the first time installing the NVIDIA driver on a system, be sure to d
 ### Instll the CUDA Yum repository
 1. Go to the CUDA toolkit archive: https://developer.nvidia.com/cuda-toolkit-archive
 2. Select the version of CUDA that's compatible with the version of TensorFlow that's going to be used.
-    - Find the version of CUDA to install based on TensorFlow listed here: https://www.tensorflow.org/install/source#tested_build_configurations
+    >Find the version of CUDA to install based on TensorFlow listed here: https://www.tensorflow.org/install/source#tested_build_configurations
 3. Select OS, Architecture (x86_64), Distribution, Version
 4. For Installer Type, select rpm (network)
 5. Like the driver, right-click the Download button and s*elect copy link address*.
@@ -131,8 +131,8 @@ For each version (do this one tgz at a time, as they all extract to cuda/):
 ## Test Tensorflow with GPU support
 >Ensure Python3 and PIP for Python3 are installed, and install them if not.
 >
->python3 --version  
->pip3 --version
+>`python3 --version`  
+>`pip3 --version`
 >
 >
 ### TensorFlow 1.14 
